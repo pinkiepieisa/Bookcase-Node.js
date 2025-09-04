@@ -1,0 +1,28 @@
+<div class="container3">
+
+    <h1> Estante de Livros </h1>
+
+    <a href="/livros/adicionar" class="btn"> Adicionar novo Livro </a>
+
+    <ul>
+
+        {{#each livros}}
+        <li>
+        
+        {{capa}} | {{nome}} | {{ano_publicacao}} | {{nome_autor}} | {{#if lido}}Lido{{else}}Não lido{{/if}} | {{estrelas}} 
+
+        <br> <br>
+
+        <a href="/livros/{{id}}/personalizar"> Personalizar </a> 
+        
+        <br> <br>
+
+        <a href="/livros/{{id}}/apagar"> Apagar </a>
+
+        </li>
+
+        {{/each}}
+
+    </ul>
+
+</div>

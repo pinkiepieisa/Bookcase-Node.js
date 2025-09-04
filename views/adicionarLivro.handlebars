@@ -1,0 +1,29 @@
+<div class="container">
+
+    <h1> Adicionar novo livro a Estante: </h1>
+
+    <form method="POST" action="/livros">
+
+        <label for="nome"> Nome do livro: </label>
+        <input type="text" id="nome" name="nome" placeholder="Digite o nome" required>
+
+        <label for="ano_publicacao"> Ano de publicação: </label>
+        <input type="number" id="ano_publicacao" name="ano_publicacao" required>
+
+        <label for="nome"> Nome do autor: </label>
+        <input type="text" id="nome" name="nome" placeholder="Digite o nome" required>
+
+        <label for="estrelas"> Estrelas (0-5): </label>
+        <input type="number" id="estrelas" name="estrelas" min="0" max="5" required>
+
+        <label for="capa"> Capa do livro: </label>
+        <input type="file" id="capa" name="capa" accept="image/*" required>
+
+        <button type="submit"> Adicionar livro </button>
+
+
+    </form>
+
+    <a href="/"> Voltar para a Estante </a>
+
+</div>

@@ -28,8 +28,8 @@ module.exports = {
 
     exibirPersonalizacao(req, res) {
         const { id } = req.params;
-        const livro = EstanteModel.listar().find((e) => e.id == id);
-        res.render('editaLivro', { tarefa });
+        const livro = EstanteModel.ordenar().find((e) => e.id == id);
+        res.render('personalizarLivro', { livro });
     },
 
     personalizarLivro(req, res) {
