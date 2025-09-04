@@ -1,0 +1,27 @@
+{
+  "name": "bookcase-node",
+  "version": "1.0.0",
+  "description": "Repositório feito para expor meu projeto particular para a atividade da aula 4 de Desenvolvimento Web 3.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkiepieisa/Bookcase-Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pinkiepieisa/Bookcase-Node.js/issues"
+  },
+  "homepage": "https://github.com/pinkiepieisa/Bookcase-Node.js#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3"
+  }
+}
