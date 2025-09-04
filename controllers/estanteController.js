@@ -34,7 +34,8 @@ module.exports = {
 
     personalizarLivro(req, res) {
         const { id } = req.params;
-        EstanteModel.personalizar(id.req.body);
+        EstanteModel.personalizar(id, req.body);
+        res.redirect('/');
     },
 
     apagarLivro(req, res) {

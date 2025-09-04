@@ -1,11 +1,12 @@
 <div class="container2">
 
     <h1> Editar livro: </h1>
+
     <form method="POST" action="/livros/{{livro.id}}/personalizar">
 
-        <label for="nome"> Nome do livro: 
+        <label for="nome"> Nome do livro: </label>
         <input type="text" id="nome" name="nome" value="{{livro.nome}}" required>
-        </label>
+    
 
         <label for="nome"> Ano de publicação: 
         <input type="number" id="ano_publicacao" name="ano_publicacao" value="{{livro.ano_publicacao}}" required>
