@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Press_Start_2P';
+    src: url(/font/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+body {
+
+    background-image: url(/img/download.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(207, 255, 158);
+}
+
+.container, .container2, .container3 {
+
+    max-width:  1000px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: rgba(255, 202, 244, 0.863);
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgb(196, 196, 196);
+    border: 10px;
+    border-style:double;
+    border-color: rgb(207, 255, 158);
+
+}
+
+h1 {
+
+    text-align: center;
+    color: rgb(116, 196, 36);
+    font-family: 'Press_Start_2P';
+}
+
+
