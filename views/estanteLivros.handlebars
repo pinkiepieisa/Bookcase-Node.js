@@ -17,8 +17,12 @@
         {{#each livros}}
         
         <li>
+
+            <img src="{{capa}}" alt="Capa de {{nome}}" style="border-radius: 5px;">
+
+            <br>
         
-            {{nome}} | {{ano_publicacao}} | {{nome_autor}} | {{#if lido}}Lido{{else}}Não lido{{/if}} | {{estrelas}} | {{capa}}
+            {{nome}} | {{ano_publicacao}} | {{nome_autor}} | {{#if lido}}Lido{{else}}Não lido{{/if}} | {{estrelas}} 
 
             <br> <br>
 
