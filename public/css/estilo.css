@@ -60,14 +60,18 @@ a {
     color: rgb(255, 103, 187);
     background-color: rgb(174, 255, 93);
     border-radius: 12px;
+    font-family: 'Press_Start_2P';
+    font-size: 12px;
+    padding: 10px;
 
 }
 
 .container5 {
 
-    width: 100px;
+    max-width: 200px;
     height: 30px;
     background-color: rgb(255, 103, 187);
+    padding: 5px;
     text-align: center;
     border-radius: 15px;
     display: flex;
@@ -125,12 +129,25 @@ li {
     gap: 10px;
     justify-content: center;
     margin-top: auto;
+    font-family: 'Press_Start_2P';
+    font-size: 8px;
 
 }
 
 #capas {
 
     height: 80px;
+
+}
+
+.botao {
+
+    background-color: rgb(253, 188, 240);
+    border-radius: 12px;
+    border-color: rgb(255, 103, 187);
+    font-family: 'Press_Start_2P';
+    font-size: 10px;
+    padding: 8px;
 
 }
 
