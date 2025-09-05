@@ -1,23 +1,43 @@
 <div class="container3">
 
-    <h1> Estante de Livros </h1>
+    <div class="container4">
 
-    <a href="/livros/adicionar" class="btn"> Adicionar novo Livro </a>
+        <h1> Estante de Livros </h1>
+
+    </div>
+
+    <div class="container6">
+
+        <a  href="/livros/adicionar" class="adicionar"> Adicionar novo Livro </a>
+
+    </div>
 
     <ul>
 
         {{#each livros}}
+        
         <li>
         
-        | {{nome}} | {{ano_publicacao}} | {{nome_autor}} | {{#if lido}}Lido{{else}}Não lido{{/if}} | {{estrelas}} | {{capa}} |
+            {{nome}} | {{ano_publicacao}} | {{nome_autor}} | {{#if lido}}Lido{{else}}Não lido{{/if}} | {{estrelas}} | {{capa}}
 
-        <br> <br>
+            <br> <br>
 
-        <a href="/livros/{{id}}/personalizar"> Personalizar </a> 
-        
-        <br> <br>
+            <div class="botoes">
 
-        <a href="/livros/{{id}}/apagar"> Apagar </a>
+                <div class="container5">
+
+                    <a href="/livros/{{id}}/personalizar"> Personalizar </a> 
+
+                </div>
+                
+                <br> <br>
+
+                <div class="container5">
+
+                    <a href="/livros/{{id}}/apagar"> Apagar </a>
+                </div>
+
+            </div>
 
         </li>
 

@@ -1,6 +1,8 @@
 <div class="container">
 
-    <h1> Adicionar novo livro a Estante: </h1>
+    <h1 class="titulo"> Adicionar novo livro a Estante: </h1>
+
+    <br> <br>
 
     <form method="POST" action="/livros">
 
@@ -19,13 +21,18 @@
         <label for="capa"> Capa do livro: </label>
         <input type="file" id="capa" name="capa" accept="image/*" required>
 
-        <button type="submit"> Adicionar livro </button>
+
+        <button class="botao" type="submit"> Adicionar livro </button>
 
 
     </form>
 
     <br><br>
 
-    <a class="voltar" href="/"> Voltar para a Estante </a>
+    <div class="container6">
+
+        <a class="voltar" href="/"> Voltar para a Estante </a>
+
+    </div>
 
 </div>
